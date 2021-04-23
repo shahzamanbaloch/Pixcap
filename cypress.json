@@ -1,0 +1,8 @@
+{
+    "testFiles": "**/*.feature",
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 20000,
+    "viewportWidth": 1000,
+    "viewportHeight": 660
+}
+

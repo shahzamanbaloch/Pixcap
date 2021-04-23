@@ -1,0 +1,25 @@
+{
+  "name": "cypress_2021",
+  "version": "1.0.0",
+  "description": "this is automation e2e framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.8.0",
+    "cypress-cucumber-preprocessor": "^4.0.1",
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  }
+}
